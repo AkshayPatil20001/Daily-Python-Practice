@@ -8,3 +8,14 @@
 # Example 1,"Input: ""Level"" → Output: ('level', True)"
 # Example 2,"Input: ""Python"" → Output: ('nohtyp', False)"
 
+def reverse_and_check_palindrome(input_string):
+    # Reverse the string
+    reversed_string = input_string[::-1]
+    
+    # Check if the original string is a palindrome (case insensitive)
+    is_palindrome = input_string.lower() == reversed_string.lower()
+    
+    return (reversed_string, is_palindrome)
+
+# Example usage
+print(reverse_and_check_palindrome("Level"))  # Output: ('leveL', True)
