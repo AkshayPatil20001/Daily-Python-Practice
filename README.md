@@ -13,6 +13,8 @@ A simple and clean way to track my daily Python problem-solving progress, coveri
 <!-- PROGRESS-TABLE-START -->
 | Day | Problems Solved | Folder Link |
 | :---: | :---: | :---: |
+| **Day 002** | 0 | [Day 2 Solutions](problems/day2/) |
+| **Day 001** | 2 | [Day 1 Solutions](problems/day1/) |
 <!-- PROGRESS-TABLE-END -->
 
 ---
